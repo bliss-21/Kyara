@@ -1,0 +1,78 @@
+.titulo_superior{
+    height: 200px;
+    background-image: url("../../img/html-clientes/titulo.jpg");
+    background-size: cover;
+}
+
+.titulo_superior--texto {
+    margin: auto;
+    color: white;
+    
+}
+
+.titulo_superior--texto h1 {
+    
+    font-size: 4em;
+    
+}
+
+
+.cuerpo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.texto{
+    margin-top: 2em;
+}
+
+.titulo_clinetes{
+    margin-top: 10em;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+}
+
+.titulo_slider_cliente{
+    text-align: center;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.imagen_cliente{
+    height:200px;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-bottom: 2em;
+    background-size: cover;
+}
+
+    .imagen_cliente--1{
+        background-image: url("../../img/html-clientes/huevos.jpg");
+    }
+
+.leyenda{
+    text-align: center;
+    margin-left:  4em;
+    margin-right: 4em;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 576px) {
+    .imagen_cliente{
+
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 2em;
+        
+    }
+
+    .titulo_clinetes{
+        margin-top: 2em;
+        margin-left:  auto;
+        margin-right: auto;
+        margin-bottom: 5em;
+    }
+}

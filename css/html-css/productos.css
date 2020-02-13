@@ -1,0 +1,76 @@
+/*productos*/
+
+.img-tarjeta{
+    
+    height: 300px; 
+    background-size: cover;
+}
+    .img-tarjeta--gps{
+        background-image: url("../../asset/slider/img/slider_1.jpg");
+    }
+    .img-tarjeta--Software{
+        background-image: url("../../asset/slider/img/slider_1.jpg");
+    }
+    .img-tarjeta--aplicacion{
+        background-image: url("../../asset/slider/img/slider_1.jpg");
+    }
+
+    /*
+    .bx-wrapper{
+        padding: 0px;
+        margin: 0px;
+        height: 300px;
+    }
+    */
+
+/*Nav*/
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    }
+    
+    .vertical-menu a:hover {
+    background-color: #ccc;
+    }
+    
+    .vertical-menu a :active {
+    background-color: #4CAF50;
+    color: white;
+    }
+    
+    .vertical-menu li{
+        text-decoration: none;
+    }
+    
+    .estilo-lista_nav{
+        margin-top: 10px !important;
+    }
+
+    @media (max-width: 991px) {
+
+        .scrollmenu {
+            
+            overflow: auto;
+            white-space: nowrap;
+        }
+    
+        .scrollmenu__item {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+
+        .tarjeta{margin-bottom: 60px;}
+    
+    }
+    .tmp{
+        display: none;
+    }
+        

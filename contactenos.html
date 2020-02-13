@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <!--Jquery-->
+    <script src="js/jquery.slim.min.js"></script>
+    
+    <!--Bootstap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Css-->
+    <link rel="stylesheet" href="css/principal.css">
+
+</head>
+<body>
+      <!--HEADER-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
+    <div class="container" style="padding-left: 0px; margin-left: 0px; padding-right: 0%; margin-right: 0%;">
+
+      <!--LOGO-->
+      <a class="navbar-brand" href="#" style="padding-left: 0px; margin-left: 0px;">
+        <img class="" style="width: 200px;" src="asset/logo.png" alt="">
+      </a>
+
+      <!--Boton menu desplegable-->
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Elementos-->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Productos</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Nuestos Clientes</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contactenos</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!--⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️ CONTENIDO ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️-->
+    <form name="frmContacto" method="post" action="sendbymail.php">
+      <table width="500px">
+      <tr>
+      <td>
+      <label for="first_name">Nombre: *</label>
+      </td>
+      <td>
+      <input type="text" name="first_name" maxlength="50" size="25">
+      </td>
+      </tr>
+      <tr>
+      <td valign="top"">
+      <label for="last_name">Apellido: *</label>
+      </td>
+      <td>
+      <input type="text" name="last_name" maxlength="50" size="25">
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="email">Dirección de E-mail: *</label>
+      </td>
+      <td>
+      <input type="text" name="email" maxlength="80" size="35">
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="telephone">Número de teléfono:</label>
+      </td>
+      <td>
+      <input type="text" name="telephone" maxlength="25" size="15">
+      </td>
+      </tr>
+      <tr>
+      <td>
+      <label for="comments">Comentarios: *</label>
+      </td>
+      <td>
+      <textarea name="comments" maxlength="500" cols="30" rows="5"></textarea>
+      </td>
+      </tr>
+      <tr>
+      <td colspan="2" style="text-align:right">
+      <input type="submit" value="Enviar">
+      </td>
+      </tr>
+      </table>
+      </form>
+
+
+
+
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ CONTENIDO ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+  <div class="relleno" style="height: 800px;"></div>
+
+  <footer class="page-footer font-small" style="width: 100%;">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> © 2016 www.kyara.cl Todos los Registros Reservados.</a>
+</div>
+</body>
+</html>
