@@ -1,2 +1,2 @@
-# Kyara
-Proyecto con el sexual M
+# Kyara.cl
+web para la empresa kyara.cl
