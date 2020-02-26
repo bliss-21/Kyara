@@ -9,6 +9,7 @@ Bloque                  --> .bloque
 
 /*Fuente Principal*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url(header_animation.css);
 /*
 :root{
     --background-color:  purple;
