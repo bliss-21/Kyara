@@ -15,6 +15,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--Css-->
     <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/html-css/contactenos.css">
 
 </head>
 <body>
@@ -61,62 +62,121 @@
     </div>
   </nav>
     <!--⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️ CONTENIDO ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️-->
-    <h1>CLONE DESDE VS A GIT en WIN10!!!!</h1>
-    <form name="frmContacto" method="post" action="sendbymail.php">
-      <table width="500px">
-      <tr>
-      <td>
-      <label for="first_name">Nombre: *</label>
-      </td>
-      <td>
-      <input type="text" name="first_name" maxlength="50" size="25">
-      </td>
-      </tr>
-      <tr>
-      <td valign="top"">
-      <label for="last_name">Apellido: *</label>
-      </td>
-      <td>
-      <input type="text" name="last_name" maxlength="50" size="25">
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <label for="email">Dirección de E-mail: *</label>
-      </td>
-      <td>
-      <input type="text" name="email" maxlength="80" size="35">
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <label for="telephone">Número de teléfono:</label>
-      </td>
-      <td>
-      <input type="text" name="telephone" maxlength="25" size="15">
-      </td>
-      </tr>
-      <tr>
-      <td>
-      <label for="comments">Comentarios: *</label>
-      </td>
-      <td>
-      <textarea name="comments" maxlength="500" cols="30" rows="5"></textarea>
-      </td>
-      </tr>
-      <tr>
-      <td colspan="2" style="text-align:right">
-      <input type="submit" value="Enviar">
-      </td>
-      </tr>
-      </table>
+
+    <br><br>
+    <center><h1 class="m-auto">Contactenos</h1></center>
+    
+   
+    <div class="container p-5">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <span class="infomacion_contactenos">
+            Equipamiento y Servicios Tecnológicos <br>
+            Gestión de Flotas de Vehículos  <br>
+            y localización de material rodante. <br>
+          </span>
+          <br>
+          <strong>
+          <div class="datos infomacion_contactenos">
+            Fonos: <span class="rojo infomacion_contactenos">+56 969172621</span> <br>  
+            Email: <span class="rojo infomacion_contactenos">tecnologias@kyara.cl</span>
+          </div>
+          </strong>
+          
+
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-1">
+          <img class="img_contactenos col-lg-12 col-md-12 col-sm-12 col-xs-12 " src="asset/logo.png" alt="" height="auto" width="auto">
+        </div>
+
+      </div>
+    </div>
+  
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 text-center">
+          <hr>
+          <h3>Formulario de Contacto</h3>
+          <p>Sus consultas o presupuestos los puede realizar completando el formulario de contacto:</p>
+          <hr>
+        </div>
+      </div>
+    </div> 
+
+    
+      
+    <div class="container  col-lg-12 col-md-12 " >
+      <form class="formulario" name="frmContacto" method="post" action="sendbymail.php"> 
+      <div class="row abs-center ">
+
+        <div class="col-lg-4 col-md-4  ">
+
+          <div class="row  p-3">
+
+            <div class="form-group">
+
+              <label for="first_name">Nombre: *</label>
+              <br>
+              <input class="form-control " type="text" name="first_name" maxlength="50" size="25">
+              
+            </div>
+
+            <div class="form-group">
+              <label for="email">Dirección de E-mail: *</label>
+              <br>
+              <input class="form-control" type="text" name="email" maxlength="80" size="35">
+            </div>
+
+            <div class="form-group">
+              <label for="telephone">Número de teléfono:</label>
+              <br>
+              <input  class="form-control" type="text" name="telephone" maxlength="25" size="25">
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-4  ">
+          
+          <div class="row  p-3">
+
+            <div class="from-group">
+
+              <label for="comments">Comentarios: *</label>
+              <br>
+              <textarea class="form-control" name="comments" maxlength="500" cols="40" rows="6"></textarea>
+
+            </div>
+
+            <div class="from-group col-lg-12 p-0">
+              <br>
+              <input class="btn btn-primary" type="submit" value="Enviar">
+            </div>
+
+          </div>
+
+        </div>
+
+          
+
+      </div>
+
+    </div>
+
+    <hr><!--Quitar despues-->
+      <!--col-lg- col-md-12 col-sm-12 col-xs-12-->     
       </form>
 
 
 
 
     <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ CONTENIDO ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
-  <div class="relleno" style="height: 800px;"></div>
+  <div class="relleno" style="height: 100px;"></div>
 
   <footer class="page-footer font-small" style="width: 100%;">
 

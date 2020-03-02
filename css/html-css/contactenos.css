@@ -1,0 +1,36 @@
+
+.formulario label{
+    font-size: 1.75rem;
+}
+
+.btn{
+    width: 150px;
+}
+
+.img_contactenos{
+    width: auto;
+    height: auto;
+
+}
+.rojo{
+    color: red;
+}
+
+.infomacion_contactenos{
+    font-size: 1.5rem;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+  }
+
+@media (max-width: 575px) {
+
+    .img_contactenos{
+        width: 380px;
+        height: 200px;
+    }
+}
