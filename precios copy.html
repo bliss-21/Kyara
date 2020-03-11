@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <!--Jquery-->
+    <script src="js/jquery.slim.min.js"></script>
+    
+    <!--Bootstap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Css-->
+    <link rel="stylesheet" href="css/principal.css">
+    <!--icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+</head>
+<body>
+      <!--HEADER-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
+    <div class="container" style="padding-left: 0px; margin-left: 0px; padding-right: 0%; margin-right: 0%;">
+
+      <!--LOGO-->
+      <a class="navbar-brand" href="#" style="padding-left: 0px; margin-left: 0px;">
+        <img class="" style="width: 200px;" src="asset/logo.png" alt="">
+      </a>
+
+      <!--Boton menu desplegable-->
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Elementos-->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active ani">
+            <a class="nav-link topBotomBordersIn" href="#">Inicio<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active ani">
+            <a class="nav-link topBotomBordersIn" href="#">Nosotros</a>
+          </li>
+
+          <li class="nav-item active ani">
+            <a class="nav-link topBotomBordersIn" href="#">Productos</a>
+          </li>
+
+          <li class="nav-item active ani">
+            <a class="nav-link topBotomBordersIn" href="#">Nuestos Clientes</a>
+          </li>
+
+          <li class="nav-item active ani">
+            <a class="nav-link topBotomBordersIn" href="#">Contactenos</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!--⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️ CONTENIDO ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️-->
+
+    <style>
+      /*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.rounded-lg {
+  border-radius: 1rem !important;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.custom-separator {
+  width: 5rem;
+  height: 6px;
+  border-radius: 1rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.2em;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+
+    </style>
+
+    <section>
+      <div class="container py-5">
+    
+        <!-- FOR DEMO PURPOSE -->
+        <header class="text-center mb-5 text-white">
+          <div class="row">
+            <div class="col-lg-7 mx-auto">
+              <h1>Bootstrap pricing table</h1>
+              <p>Easily create a classy pricing table in Bootstrap&nbsp;4.<br> <a href="https://bootstrapious.com/snippets" class="text-reset">Bootstrap snippet by Bootstrapious</a></p>
+            </div>
+          </div>
+        </header>
+        <!-- END -->
+        
+    
+    
+        <div class="row text-center align-items-end">
+          <!-- Pricing Table-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Basico</h1>
+              <h2 class="h1 font-weight-bold">$11.900<span class="text-small font-weight-normal ml-2">/ Mesual</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left">
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Seguir y monitorear su Flota en tiempo real visualizando sus propiedades básicas.
+                </li>
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Ver recorridos efectuados, hasta dos meses de historial (se puede aumentar conforme necesidad).
+                </li>
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Registrar Unidades por patentes (Vehículos).
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Historial de conducción, rutas, velocidades y tiempos.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Tiempo, lugares y frecuencia en Estacionamientos y Detenciones.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Ver, registrar y asignar conductores y pasajeros.
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Control de Mantenimiento para configurar.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Definir tareas (Ejemplo mandar por email informes).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Solicitar registros de mensajes y comandos enviados y ejecutados.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Comandos enviados, ejecutados y mensajes emitidos.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Excesos de Velocidad y su frecuencia de ocurrencia.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Medir la Gestión y Comportamiento de Conductores “Eco Driver” (Herramienta Nueva, evaluación de ellos conductores - Manejo agresivo).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Crear y ver ingreso y salidas de zonas (Geocercas).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Funcionamiento en Horas Motor.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Ver y crear Usuarios en la propia Empresa. Acceso restringido.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Emitir Comandos de Corte de Energía del Vehículo (opcional, sin costo, verificación de modelo de vehículo).</del>
+                </li>
+
+
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+    
+          <!-- Pricing Table-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Medio</h1>
+              <h2 class="h1 font-weight-bold">$13.500<span class="text-small font-weight-normal ml-2">/ Mesual</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Seguir y monitorear su Flota en tiempo real visualizando sus propiedades básicas.
+                </li>
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Ver recorridos efectuados, hasta dos meses de historial (se puede aumentar conforme necesidad).
+                </li>
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Registrar Unidades por patentes (Vehículos).
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Historial de conducción, rutas, velocidades y tiempos.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Tiempo, lugares y frecuencia en Estacionamientos y Detenciones.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Ver, registrar y asignar conductores y pasajeros.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>
+                  Control de Mantenimiento para configurar.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>
+                  Definir tareas (Ejemplo mandar por email informes).
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>
+                  Solicitar registros de mensajes y comandos enviados y ejecutados.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>
+                  Comandos enviados, ejecutados y mensajes emitidos.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>
+                  Excesos de Velocidad y su frecuencia de ocurrencia.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i>
+                  Medir la Gestión y Comportamiento de Conductores “Eco Driver” (Herramienta Nueva, evaluación de ellos conductores - Manejo agresivo).
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Crear y ver ingreso y salidas de zonas (Geocercas).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Funcionamiento en Horas Motor.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Ver y crear Usuarios en la propia Empresa. Acceso restringido.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Emitir Comandos de Corte de Energía del Vehículo (opcional, sin costo, verificación de modelo de vehículo).</del>
+                </li>
+
+
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+    
+          <!-- Pricing Table-->
+          <div class="col-lg-4">
+            <div class="bg-white p-5 rounded-lg shadow">
+              <h1 class="h6 text-uppercase font-weight-bold mb-4">Alto</h1>
+              <h2 class="h1 font-weight-bold">$15.100<span class="text-small font-weight-normal ml-2">/ Mesual</span></h2>
+    
+              <div class="custom-separator my-4 mx-auto bg-primary"></div>
+    
+              <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Seguir y monitorear su Flota en tiempo real visualizando sus propiedades básicas.
+                </li>
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Ver recorridos efectuados, hasta dos meses de historial (se puede aumentar conforme necesidad).
+                </li>
+                
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Registrar Unidades por patentes (Vehículos).
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Historial de conducción, rutas, velocidades y tiempos.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Tiempo, lugares y frecuencia en Estacionamientos y Detenciones.
+                </li>
+
+                <li class="mb-3">
+                  <i class="fa fa-check mr-2 text-primary"></i> Ver, registrar y asignar conductores y pasajeros.
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Control de Mantenimiento para configurar.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Definir tareas (Ejemplo mandar por email informes).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Solicitar registros de mensajes y comandos enviados y ejecutados.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Comandos enviados, ejecutados y mensajes emitidos.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Excesos de Velocidad y su frecuencia de ocurrencia.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Medir la Gestión y Comportamiento de Conductores “Eco Driver” (Herramienta Nueva, evaluación de ellos conductores - Manejo agresivo).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Crear y ver ingreso y salidas de zonas (Geocercas).</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Funcionamiento en Horas Motor.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Ver y crear Usuarios en la propia Empresa. Acceso restringido.</del>
+                </li>
+
+                <li class="mb-3 text-muted">
+                  <i class="fa fa-times mr-2"></i>
+                  <del>Emitir Comandos de Corte de Energía del Vehículo (opcional, sin costo, verificación de modelo de vehículo).</del>
+                </li>
+
+
+              </ul>
+              <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Subscribe</a>
+            </div>
+          </div>
+          <!-- END -->
+    
+        </div>
+      </div>
+    </section>
+
+
+    <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ CONTENIDO ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑-->
+  
+
+  <footer class="page-footer font-small" style="width: 100%;">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> © 2016 www.kyara.cl Todos los Registros Reservados.</a>
+</div>
+</body>
+</html>
