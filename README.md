@@ -1,2 +1,2 @@
 # Kyara.cl
-web para la empresa kyara.cl
+pagina web para un cliente
